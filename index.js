@@ -1,5 +1,5 @@
 function produceDrivingRange(blockRange) {
-  return function(marketMultiplier) {
-    return marketMultiplier * blockRange;
+  return function(blockMultiplier) {
+    return blockMultiplier * blockRange;
   };
 }
