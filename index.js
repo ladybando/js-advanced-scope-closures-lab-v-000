@@ -1,5 +1,5 @@
-function produceDrivingRange(manufacturePrice) {
+function produceDrivingRange(blockRange) {
   return function(marketMultiplier) {
-    return marketMultiplier * manufacturePrice;
+    return marketMultiplier * blockRange;
   };
 }
