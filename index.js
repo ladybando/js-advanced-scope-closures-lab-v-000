@@ -1,4 +1,4 @@
-function retailPriceMaker(manufacturePrice) {
+function produceDrivingRange() {
   return function(marketMultiplier) {
     return marketMultiplier * manufacturePrice;
   };
